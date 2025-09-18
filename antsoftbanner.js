@@ -1,6 +1,6 @@
-//Descrição: Banner para exibição em outro site e parceiros da AntSoft
+//Descrição: Banner para exibição em outros sites e parceiros da AntSoft
 //Criação: 09/05/2018
-//Atualização: 29/09/2021
+//Atualização: 18/09/2025
 //
 //
 //
@@ -16,12 +16,14 @@
 // » 0.8 - Inclusão da string http: nos endereços de URL permitindo o acesos através de https:; Atualização da descrição e inclusão do Histórico das Versões
 // » 0.9 - Alteração do protocolo http: para  https:
 // » 1.0 - Inclusão do atributo alt nas imagens
+// » 1.1 -  Verifica se o elemento antsoft existe e seta o código html;  correção da descrição
 
 (function ($) {
     "use strict"; // Start of use strict
     $(document).ready(function () {
+        if (document.getElementById('antsoft')){
         document.getElementById("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsoft.com.br/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</small></a></p>";
         document.getElementsByClassName("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsoft.com.br/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</a></p>";
-      
+        }
     });
 })(jQuery); // End of use strict
