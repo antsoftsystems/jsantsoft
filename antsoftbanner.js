@@ -17,7 +17,7 @@
 // » 0.9 - Alteração do protocolo http: para  https:
 // » 1.0 - Inclusão do atributo alt nas imagens
 // » 1.1 -  Verifica se o elemento antsoft existe e seta o código html;  correção da descrição
-// » 1.2 -  Alteração do site onde imagem da logomarca da Antsoft está hospedada
+// » 1.2 -  Alteração do site onde imagem da logomarca da Antsoft está hospedada.
 
 (function ($) {
     "use strict"; // Start of use strict
