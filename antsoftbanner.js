@@ -1,6 +1,6 @@
 //Descrição: Banner para exibição em outros sites e parceiros da AntSoft
 //Criação: 09/05/2018
-//Atualização: 18/09/2025
+//Atualização: 23/03/2026
 //
 //
 //
