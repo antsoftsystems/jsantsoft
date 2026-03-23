@@ -17,13 +17,14 @@
 // » 0.9 - Alteração do protocolo http: para  https:
 // » 1.0 - Inclusão do atributo alt nas imagens
 // » 1.1 -  Verifica se o elemento antsoft existe e seta o código html;  correção da descrição
+// » 1.2 -  Alteração do site onde imagem da logomarca da Antsoft está hospedada
 
 (function ($) {
     "use strict"; // Start of use strict
     $(document).ready(function () {
         if (document.getElementById('antsoft')){
-        document.getElementById("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsoft.com.br/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</small></a></p>";
-        document.getElementsByClassName("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsoft.com.br/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</a></p>";
+        document.getElementById("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsofthost.com/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</small></a></p>";
+        document.getElementsByClassName("antsoft").innerHTML = "<p class='small' style='text-align:center'><a href='https://www.antsoft.com.br' target='_blank'><img src='https://www.antsofthost.com/images/ant_soft_logomarca_small.png' alt='AntSoft Systems On Demand'/><br />Developer by: AntSoft Systems On Demand</a></p>";
         }
     });
 })(jQuery); // End of use strict
